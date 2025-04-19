@@ -66,6 +66,7 @@ keycodeMap = {
 	["f11"] = 0x7A,
 	["f12"] = 0x7B,
 }
+
 a="e"
 temp = keycodeMap[a:lower()]
 print(temp)
