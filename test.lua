@@ -66,5 +66,7 @@ keycodeMap = {
 	["f11"] = 0x7A,
 	["f12"] = 0x7B,
 }
-print(keycodeMap["e"])
-keypress(keycodeMap["e"])
+a="e"
+temp = keycodeMap[a:lower()]
+print(temp)
+keypress(temp)
